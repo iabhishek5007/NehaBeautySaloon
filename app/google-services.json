@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1065411050118",
+    "project_id": "neha-beauty-salon",
+    "storage_bucket": "neha-beauty-salon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065411050118:android:7caa84e175f668e1cbaf07",
+        "android_client_info": {
+          "package_name": "com.example.nehabeautysalon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065411050118-nkfrsa0p43imqf4tlscb1nc58ob3hmdi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcQ-AxCUWmccRUtSJ9qWIpYC0zMGxe_vQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065411050118-nkfrsa0p43imqf4tlscb1nc58ob3hmdi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

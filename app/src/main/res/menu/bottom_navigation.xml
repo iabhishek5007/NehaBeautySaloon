@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_products"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        android:title="Shop"/>
+
+    <item
+        android:id="@+id/nav_appointment"
+        android:icon="@drawable/ic_baseline_date_range_24"
+        android:title="Book Now"/>
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/nav_chat"
+        android:icon="@drawable/ic_baseline_chat_24"
+        android:title="Chat"/>
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="About Us"/>
+</menu>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_myProfile"
+            android:icon="@drawable/ic_person"
+            android:title="My Profile" />
+
+        <item
+            android:id="@+id/nav_Appointment"
+            android:icon="@drawable/ic_aapointement"
+            android:title="Appointment" />
+
+        <item
+            android:id="@+id/nav_Products"
+            android:icon="@drawable/ic_product"
+            android:title="Products" />
+
+        <item
+            android:id="@+id/nav_Offers"
+            android:icon="@drawable/ic_offer"
+            android:title="Offers" />
+
+        <!--        <item-->
+        <!--            android:id="@+id/nav_IRRcalculator"-->
+        <!--            android:icon="@drawable/ic_finance"-->
+        <!--            android:title="IRR Calculator" />-->
+
+        <item
+            android:id="@+id/nav_Reminder"
+            android:icon="@drawable/ic_reminder"
+            android:title="Reminder" />
+
+        <item
+            android:id="@+id/nav_myOrder"
+            android:icon="@drawable/ic_orders"
+            android:title="My Order" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:title="About Us" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+
+
+    </group>
+
+</menu>

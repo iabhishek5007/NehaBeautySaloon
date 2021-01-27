@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aldrich</item>
+        <item>@font/arbutus</item>
+        <item>@font/audiowide</item>
+        <item>@font/balthazar</item>
+        <item>@font/bubblegum_sans</item>
+        <item>@font/croissant_one</item>
+        <item>@font/eagle_lake</item>
+        <item>@font/marko_one</item>
+        <item>@font/muli_black</item>
+        <item>@font/muli_extralight</item>
+        <item>@font/muli_semibold</item>
+    </array>
+</resources>

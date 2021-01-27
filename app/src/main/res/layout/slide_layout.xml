@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="100dp">
+
+    <TextView
+        android:id="@+id/slide_description"
+        android:layout_width="323dp"
+        android:layout_height="88dp"
+        android:layout_below="@+id/slide_image"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="30dp"
+        android:text="No back-and-forth emails, no double booking. Only a few seconds to schedule an appointment with us." />
+
+    <ImageView
+        android:id="@+id/slide_image"
+        android:layout_width="333dp"
+        android:layout_height="327dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/onboard1" />
+
+    <TextView
+        android:id="@+id/slide_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="107dp"
+        android:layout_below="@+id/slide_image"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="118dp"
+        android:fontFamily="@font/marko_one"
+        android:text="Booking an appointment is a breeze"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+</RelativeLayout>
