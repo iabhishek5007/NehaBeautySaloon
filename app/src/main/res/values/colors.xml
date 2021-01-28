@@ -18,4 +18,6 @@
     <color name="lightWhite">#f2f5f8</color>
     <color name="mikadoyellow">#FFD919</color>
 
+    <color name="bg_color">#FF434261</color>
+
 </resources>

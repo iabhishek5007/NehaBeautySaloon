@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    tools:context=".ServicesFragment">
+
+    <TextView
+        android:id="@+id/tvOurServices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Our Services"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_waxing"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/bleach"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintEnd_toStartOf="@+id/img_facial"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvOurServices" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waxing"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="@id/img_waxing"
+        app:layout_constraintRight_toRightOf="@id/img_waxing"
+        app:layout_constraintTop_toBottomOf="@id/img_waxing" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_facial"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:src="@drawable/facial"
+        app:layout_constraintBottom_toBottomOf="@id/img_waxing"
+        app:layout_constraintEnd_toStartOf="@+id/img_bleach"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_waxing"
+        app:layout_constraintTop_toTopOf="@+id/img_waxing" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Facial"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="@id/img_facial"
+        app:layout_constraintRight_toRightOf="@id/img_facial"
+        app:layout_constraintTop_toBottomOf="@id/img_facial" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_bleach"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/bleach"
+        app:layout_constraintBottom_toBottomOf="@id/img_facial"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_facial"
+        app:layout_constraintTop_toTopOf="@+id/img_facial" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BLeach"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="@id/img_bleach"
+        app:layout_constraintRight_toRightOf="@id/img_bleach"
+        app:layout_constraintTop_toBottomOf="@id/img_bleach" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_massage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/haircuts"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintEnd_toStartOf="@+id/img_manicure"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_waxing" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Haircut"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="@id/img_massage"
+        app:layout_constraintRight_toRightOf="@id/img_massage"
+        app:layout_constraintTop_toBottomOf="@id/img_massage" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_manicure"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:src="@drawable/manicure"
+        app:layout_constraintBottom_toBottomOf="@id/img_massage"
+        app:layout_constraintEnd_toStartOf="@+id/img_makeup"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_massage"
+        app:layout_constraintTop_toTopOf="@+id/img_massage" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manicure"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintLeft_toLeftOf="@id/img_manicure"
+        app:layout_constraintRight_toRightOf="@id/img_manicure"
+        app:layout_constraintTop_toBottomOf="@id/img_manicure" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_makeup"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/makeup"
+        app:layout_constraintBottom_toBottomOf="@id/img_manicure"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_manicure"
+        app:layout_constraintTop_toTopOf="@+id/img_manicure" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Makeup"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintLeft_toLeftOf="@id/img_makeup"
+        app:layout_constraintRight_toRightOf="@id/img_makeup"
+        app:layout_constraintTop_toBottomOf="@id/img_makeup" />
+
+    <!--3rd Row -->
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_haircolor"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/haircolor"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintEnd_toStartOf="@+id/img_treatment"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_massage" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hair Color"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintLeft_toLeftOf="@id/img_haircolor"
+        app:layout_constraintRight_toRightOf="@id/img_haircolor"
+        app:layout_constraintTop_toBottomOf="@id/img_haircolor" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_treatment"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:src="@drawable/treatment"
+        app:layout_constraintBottom_toBottomOf="@id/img_haircolor"
+        app:layout_constraintEnd_toStartOf="@+id/img_hairStyling"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_haircolor"
+        app:layout_constraintTop_toTopOf="@+id/img_haircolor" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teartment"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintLeft_toLeftOf="@id/img_treatment"
+        app:layout_constraintRight_toRightOf="@id/img_treatment"
+        app:layout_constraintTop_toBottomOf="@id/img_treatment" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_hairStyling"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/hairstyling"
+        app:layout_constraintBottom_toBottomOf="@id/img_treatment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_treatment"
+        app:layout_constraintTop_toTopOf="@+id/img_treatment" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hair Styling"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintLeft_toLeftOf="@id/img_hairStyling"
+        app:layout_constraintRight_toRightOf="@id/img_hairStyling"
+        app:layout_constraintTop_toBottomOf="@id/img_hairStyling" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

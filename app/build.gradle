@@ -46,13 +46,15 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
     //Country Picker Design
-    implementation 'com.hbb20:ccp:2.3.1'
+    implementation 'com.hbb20:ccp:2.3.2'
 
     //OTP PIN View Design
-    implementation 'com.chaos.view:pinview:1.4.3'
+    implementation 'com.chaos.view:pinview:1.4.4'
     implementation 'com.google.firebase:firebase-core:16.0.8'
 
     implementation 'com.google.android.gms:play-services-auth:19.0.0'
     implementation 'com.firebaseui:firebase-ui:0.6.2'
 
+    //circle imageView
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
 }
