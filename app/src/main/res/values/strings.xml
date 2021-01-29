@@ -25,4 +25,14 @@
         <item>5</item>
         <!--        <item>PAN Card</item>-->
     </string-array>
+
+    <string name="AreaType">Choose ID</string>
+    <string-array name="Areatype_arrays">
+        <item>Place 1</item>
+        <item>Place 2</item>
+        <item>Place 3</item>
+        <item>Place 4</item>
+        <item>Place 5</item>
+        <!--        <item>PAN Card</item>-->
+    </string-array>
 </resources>
