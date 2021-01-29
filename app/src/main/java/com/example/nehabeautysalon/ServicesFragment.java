@@ -11,6 +11,11 @@ import android.view.ViewGroup;
 
 public class ServicesFragment extends Fragment {
 
+    public static ServicesFragment newInstance() {
+        ServicesFragment fragment = new ServicesFragment();
+        return fragment;
+    }
+
 
 
     @Override

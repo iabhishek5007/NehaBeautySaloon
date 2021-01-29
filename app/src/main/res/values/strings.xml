@@ -15,4 +15,14 @@
 
     <string name="navigation_drawer_open">Open Navigation drawer</string>
     <string name="navigation_drawer_close">Close Navigation drawer</string>
+
+    <string name="IDType">Choose ID</string>
+    <string-array name="idtype_arrays">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <!--        <item>PAN Card</item>-->
+    </string-array>
 </resources>

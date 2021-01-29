@@ -17,7 +17,13 @@
     <color name="colorAccent">#272727</color>
     <color name="lightWhite">#f2f5f8</color>
     <color name="mikadoyellow">#FFD919</color>
+    <color name="colorGrey1">#888888</color>
 
     <color name="bg_color">#FF434261</color>
+
+    <!-- button Color -->
+    <color name="add_manual_account_completed_activity_add_account_button_gradient_stop_color_1">#7EF192</color>
+    <color name="add_manual_account_completed_activity_add_account_button_gradient_stop_color_2">#2DC897</color>
+    <color name="go_premium_plan_choosed_activity_constraint_layout_constraint_layout_gradient_stop_color_1">#FFB382</color>
 
 </resources>

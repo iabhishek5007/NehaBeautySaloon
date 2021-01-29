@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bg_color"
     tools:context=".ServicesFragment">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
 
     <TextView
         android:id="@+id/tvOurServices"
@@ -37,8 +43,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Waxing"
         android:layout_marginTop="5dp"
+        android:text="Bleach"
         android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintLeft_toLeftOf="@id/img_waxing"
@@ -75,7 +81,7 @@
         android:layout_height="100dp"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="16dp"
-        android:src="@drawable/bleach"
+        android:src="@drawable/massage"
         app:layout_constraintBottom_toBottomOf="@id/img_facial"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -85,8 +91,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="BLeach"
         android:layout_marginTop="5dp"
+        android:text="Massage"
         android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintLeft_toLeftOf="@id/img_bleach"
@@ -111,9 +117,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
         android:text="Haircut"
         android:textColor="@color/white"
-        android:layout_marginTop="5dp"
         android:textSize="18sp"
         app:layout_constraintLeft_toLeftOf="@id/img_massage"
         app:layout_constraintRight_toRightOf="@id/img_massage"
@@ -135,10 +141,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
         android:text="Manicure"
         android:textColor="@color/white"
         android:textSize="18sp"
-        android:layout_marginTop="5dp"
         app:layout_constraintLeft_toLeftOf="@id/img_manicure"
         app:layout_constraintRight_toRightOf="@id/img_manicure"
         app:layout_constraintTop_toBottomOf="@id/img_manicure" />
@@ -149,7 +155,7 @@
         android:layout_height="100dp"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="16dp"
-        android:src="@drawable/makeup"
+        android:src="@drawable/treatment"
         app:layout_constraintBottom_toBottomOf="@id/img_manicure"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -159,10 +165,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Makeup"
+        android:layout_marginTop="5dp"
+        android:text="Treatment"
         android:textColor="@color/white"
         android:textSize="18sp"
-        android:layout_marginTop="5dp"
         app:layout_constraintLeft_toLeftOf="@id/img_makeup"
         app:layout_constraintRight_toRightOf="@id/img_makeup"
         app:layout_constraintTop_toBottomOf="@id/img_makeup" />
@@ -186,10 +192,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
         android:text="Hair Color"
         android:textColor="@color/white"
         android:textSize="18sp"
-        android:layout_marginTop="5dp"
         app:layout_constraintLeft_toLeftOf="@id/img_haircolor"
         app:layout_constraintRight_toRightOf="@id/img_haircolor"
         app:layout_constraintTop_toBottomOf="@id/img_haircolor" />
@@ -200,7 +206,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="32dp"
-        android:src="@drawable/treatment"
+        android:src="@drawable/waxing2"
         app:layout_constraintBottom_toBottomOf="@id/img_haircolor"
         app:layout_constraintEnd_toStartOf="@+id/img_hairStyling"
         app:layout_constraintHorizontal_bias="0.5"
@@ -210,10 +216,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
         android:text="Teartment"
         android:textColor="@color/white"
         android:textSize="18sp"
-        android:layout_marginTop="5dp"
         app:layout_constraintLeft_toLeftOf="@id/img_treatment"
         app:layout_constraintRight_toRightOf="@id/img_treatment"
         app:layout_constraintTop_toBottomOf="@id/img_treatment" />
@@ -234,13 +240,96 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
         android:text="Hair Styling"
         android:textColor="@color/white"
         android:textSize="18sp"
-        android:layout_marginTop="5dp"
         app:layout_constraintLeft_toLeftOf="@id/img_hairStyling"
         app:layout_constraintRight_toRightOf="@id/img_hairStyling"
         app:layout_constraintTop_toBottomOf="@id/img_hairStyling" />
 
+    <!--3rd row end -->
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- 4th row start -->
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_wax"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/threading2"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintEnd_toStartOf="@+id/img_threading"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_haircolor" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Threading"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="@id/img_wax"
+        app:layout_constraintRight_toRightOf="@id/img_wax"
+        app:layout_constraintTop_toBottomOf="@id/img_wax" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_threading"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:src="@drawable/hairspa"
+        app:layout_constraintBottom_toBottomOf="@id/img_wax"
+        app:layout_constraintEnd_toStartOf="@+id/img_hairSpa"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_wax"
+        app:layout_constraintTop_toTopOf="@+id/img_wax" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Hair Spa"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="@id/img_threading"
+        app:layout_constraintRight_toRightOf="@id/img_threading"
+        app:layout_constraintTop_toBottomOf="@id/img_threading" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_hairSpa"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/makeup"
+        app:layout_constraintBottom_toBottomOf="@id/img_threading"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_threading"
+        app:layout_constraintTop_toTopOf="@+id/img_threading" />
+
+    <TextView
+        android:id="@+id/img_makeup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Make Up"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="@id/img_hairSpa"
+        app:layout_constraintRight_toRightOf="@id/img_hairSpa"
+        app:layout_constraintTop_toBottomOf="@id/img_hairSpa" />
+
+
+    <!-- 4th row end -->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>
