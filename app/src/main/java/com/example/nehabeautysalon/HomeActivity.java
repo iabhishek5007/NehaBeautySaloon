@@ -78,16 +78,19 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
+                Fragment selectedFragment = null;
                 switch (menuItem.getItemId()) {
                     case R.id.nav_home:
+                        selectedFragment = new HomeFragment();
                         break;
                     case R.id.nav_myProfile:
+                        selectedFragment = new ProfileFragment();
                         break;
                     case R.id.nav_Appointment:
-
+                        selectedFragment = new AppointmentFragment();
                         break;
                     case R.id.nav_Products:
-
+                        selectedFragment = new ProductsFragment();
                         break;
                     case R.id.nav_Offers:
 
@@ -108,6 +111,8 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
                     default:
                         break;
                 }
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, selectedFragment).commit();
+
             }
         }, 200);
         drawerLayout.closeDrawer(GravityCompat.START);

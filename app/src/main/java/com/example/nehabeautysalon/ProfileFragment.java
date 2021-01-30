@@ -106,7 +106,7 @@ public class ProfileFragment extends Fragment {
                 editor.putString(KEY_NAME, Objects.requireNonNull(userName.getText()).toString());
                 editor.putString(KEY_DOB, Objects.requireNonNull(dateOfBirth.getText()).toString());
                 editor.putString(KEY_MOBILE_NUMBER, Objects.requireNonNull(phoneNumber.getText()).toString());
-                editor.putString(KEY_ADDRESS, addressSpinner.getSelectedItem().toString());
+         //       editor.putString(KEY_ADDRESS, addressSpinner.getSelectedItem().toString());
                 editor.apply();
 
                 Fragment selectedFragment;
@@ -143,7 +143,7 @@ public class ProfileFragment extends Fragment {
         userName.setText(name);
         dateOfBirth.setText(dateOFBirth);
         phoneNumber.setText(phoneNo);
-        addressSpinner.setSelection(spinnerPosition);
+     //   addressSpinner.setSelection(spinnerPosition);
 
     }
 }

@@ -33,7 +33,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fontFamily="@font/muli_semibold"
-            android:inputType="phone"
+            android:inputType="text"
             android:textColor="@color/white"
             android:textCursorDrawable="@null" />
 
@@ -44,7 +44,7 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="25/12/1997"
+        android:hint="Birthday"
         android:layout_marginTop="30dp"
         android:textColorHint="@color/white"
         app:boxStrokeColor="@color/white"
